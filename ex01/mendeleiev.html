@@ -15,26 +15,28 @@
 			}
 			.col {
 				width : 5.55%;
+				min-width: 45px;
 				border-left:1px solid lightgrey;
 				border-right:1px solid lightgrey;
 			}
 			.col-1 {
 				width : 5.55%;
 				min-width: 45px;
-				background : purple;
+				/*background : purple;*/
 				border:1px solid lightgrey;
 			}
 			.col-10 {
-				width : 56.75%
+				width : 55.6%;
 				/*background:white;*/
 				/*border:1px solid lightgrey;*/
 			}
 			.col-16 {
 				width : 88.88%
 			}
-			.name{text-align: center; font-weight: bold; font-size: 35px; height: 0;}
+			.name{text-align: center; font-weight: bold; font-size: 35px; height: 0; padding: 0;}
 			.weight{text-align: center;}
-			.number{text-align: left;height: 0;}
+			.number{text-align: left;height: 0; margin: 0; padding: 0;}
+			#noblegas{background : #FF555D;}
 			h1 {text-align: center;}
 		</style>
 	</header>
@@ -42,19 +44,23 @@
 	<h1>Mendeleiev's Periodic Table</h1>
 	<div class="table">
 		<div class="row">
-			<div class="col-1">
+			<div class="col-1" style="background: #E9FF7B;">
 				<p class="number">1</p>
 				<p class="name">H</p>
 				<p class="weight">1.008</p>
 			</div>
 			<div class="col-16"></div>
-			<div class="col-1">
-			<h1>He</h1>
+			<div class="col-1" id="noblegas">
+				<p class="number">2</p>
+				<p class="name">He</p>
+				<p class="weight">4.003</p>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-1">
-				<h1>Li</h1>
+				<p class="number">2</p>
+				<p class="name">Li</p>
+				<p class="weight">4.003</p>
 			</div>
 			<div class="col-1">
 				<h1>Be</h1>
