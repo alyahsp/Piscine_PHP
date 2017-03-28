@@ -6,7 +6,7 @@
 /*   By: spalmaro <spalmaro@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/03/26 18:32:19 by spalmaro          #+#    #+#             */
-/*   Updated: 2017/03/26 18:58:31 by spalmaro         ###   ########.fr       */
+/*   Updated: 2017/03/28 02:53:52 by StanyaPalmaro    ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,11 +15,126 @@
 }
 .header{
 	background: #909090;
-	align: center;
-	display: flex;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+	box-shadow: 10px 10px 12px #000000;
+	border-radius: 10px;
+	height: 150px;
 	width: 80%;
+	margin-bottom: 3%;
 }
 
-.reload{
+.actions{
 	background: #909090;
+	overflow: hidden;
+	display:inline-block;
+	margin-left: 12%;
+	box-shadow: 10px 10px 12px #000000;
+	border-radius: 10px;
+	width: 12%;
+	height: 400px;
+	margin-right: 2%;
+	vertical-align: top;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.image{
+	background: #909090;
+	overflow: hidden;
+	display:inline-block;
+	box-shadow: 10px 10px 12px #000000;
+	border-radius: 10px;
+	width: 47%;
+	height: 600px;
+	margin-right: 2%;
+}
+
+.right{
+	background: #909090;
+	overflow: hidden;
+	display:inline-block;
+	margin-right: 12%;
+	box-shadow: 10px 10px 12px #000000;
+	border-radius: 10px;
+	width: 12%;
+	height: 400px;
+	vertical-align: top;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#dft{
+	height:140px;
+	width: auto;
+	/*background: #909090;*/
+}
+
+#reload{
+	background: #909090;
+	position: absolute;
+	top: 15px;
+	right: 12%;
+	width: 20px;
+	height: 20px;
+}
+
+#close{
+	/*padding-left: 90%;*/
+	position: absolute;
+	top: 125px;
+	right: 12%;
+	background: #909090;
+}
+
+#loupe{
+	background: #909090;
+	position: absolute;
+	right: 14%;
+}
+
+#act{
+	background: #909090;
+	width: 80px;
+	height: 80px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#book{
+	background: #909090;
+	width: 70px;
+	height: 95px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#towel{
+	background: #909090;
+	width: 50px;
+	height: 50px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#brick{
+	background: #909090;
+	width: 125px;
+	height: 80px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#clst{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
 }
