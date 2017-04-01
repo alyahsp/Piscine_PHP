@@ -1,8 +1,9 @@
 #!/usr/bin/php
 <?php
-if (argc > 1)
+if ($argc > 1)
 {
 	unset($argv[0]);
+	print_r($argv);
 	$str = implode(" ",$argv);
 	$str = trim($str);
 	$str = preg_replace('/\s+/', ' ', $str);
@@ -15,8 +16,8 @@ if (argc > 1)
 		else
 			$oth[] = $type;
 	}
-	natcasesort($alpha);
-	sort($nb);
+	sort($alpha, SORT_FLAG_CASE | SORT_STRING);
+	sort($nb, SORT_STRING);
 	sort($oth);
 	$str = array_merge($alpha, $nb, $oth);
 	foreach ($str as $type)
