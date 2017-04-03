@@ -10,27 +10,26 @@
 
 .col {
 	width : 5.55%;
-	min-width: 45px;
-	border-left:1px solid black;
-	border-right:1px solid black;
+	/*min-width: 45px;*/
+	border:1px solid black;
 }
 
 .col-1{
 	width : 5.55%;
-	min-width: 45px;
+	/*min-width: 45px;*/
 	border:1px solid black;
 }
 
 .col-10{
 	width : 57%;
-	min-width: 468px;
+	/*min-width: 468px;*/
 	border-left:1px solid black;
 	border-right:1px solid black;
 }
 
 .col-16{
 	width : 91%;
-	min-width: 750px;
+	/*min-width: 750px;*/
 	border-left:1px solid black;
 	border-right:1px solid black;
 }
@@ -38,20 +37,23 @@
 .name{
 	text-align: center;
 	font-weight: bold;
-	font-size: 35px;
+	font-size: 3vmin;
 	height: 0;
-	padding: 0;
+	margin-bottom: 38px;
 }
 
 .weight{
-	text-align: center;
+	text-align: right;
+	font-size: 1vmin;
+	height: 0;
+	margin: 0;
+	padding: 0;
 }
 
 .number{
 	text-align: left;
-	height: 0;
-	margin: 0;
-	padding: 0;
+	height:0;
+	font-size: 1vmin;
 }
 
 .side{
@@ -64,8 +66,18 @@
 	display:block;
 	margin-left: auto;
 	margin-right: auto;
-	height: 100px;
+	width: 30%;
 	padding-top: 0;
+}
+
+.types{
+	display: block;
+}
+.rect{
+	margin-right: .5%;
+	display: inline-block;
+	border:1px solid black;
+	width:108px;
 }
 
 #noblegas{background : #960CE8;}
@@ -78,4 +90,5 @@
 #basic{background : #8FE848;}
 #lanthanide{background : #E886DE;}
 #actinide{background : #E85AD4;}
+#empt{text-align: center; font-size: 2vmin; margin-top: 45%;}
 h1 {text-align: center; padding-bottom: 0;}
