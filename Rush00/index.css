@@ -1,0 +1,24 @@
+.main-banner{
+	display: block;
+	position: absolute;
+	height: 90px;
+	float: left;
+	width:100%;
+}
+
+.logo, .mini-nav{
+	display: inline-block;
+}
+
+.account{
+	/*display: inline-block;*/
+	width: 85px;
+	position: absolute;
+	right: 110px;
+}
+.basket{
+	/*display: inline-block;*/
+	width: 85px;
+	position: absolute;
+	right: 20px;
+}
