@@ -1,24 +1,63 @@
 .main-banner{
 	display: block;
-	position: absolute;
-	height: 90px;
-	float: left;
-	width:100%;
+	/*position: absolute;*/
+	height: 60px;
+	/*float: left;*/
+	width:90%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-.logo, .mini-nav{
+body{
+	margin-left: 20px;
+	margin-right: 20px;}
+
+a{
+	text-decoration: none;
+	color: #333;
+	font-family: "Interstate", Helvetica, Arial, sans-serif;
+}
+.logo{
 	display: inline-block;
+	height: 60px;
 }
 
-.account{
+.account, .basket{
 	/*display: inline-block;*/
-	width: 85px;
-	position: absolute;
-	right: 110px;
+	width: 75px;
+	float:right;
+	height: 60px;
+	/*position: absolute;*/
+	/*right: 110px;*/
 }
-.basket{
-	/*display: inline-block;*/
-	width: 85px;
-	position: absolute;
-	right: 20px;
+
+.categories{
+	display: inline-block;
+	width: 100%;
+	height: 40px;
+	background-color : #E8E1DC;
+
+	/*margin-left: auto;
+	margin-right: auto;*/
+	/*z-index:auto;*/
+	/*position: absolute;*/
+	/*right: 20px;*/
+}
+
+.catg:hover{
+	display: inline;
+	color: grey;
+	/*font-size: 35px;*/
+	/*padding-right: 15px;
+	padding-left: 15px;*/
+	/*background-color: #2980B9;*/
+	cursor: pointer;
+}
+
+.catg{
+	margin:0 33px;
+	text-transform: uppercase;
+	width: auto !important;
+	line-height: 45px;
+	/*font-family: sans-serif;*/
 }
