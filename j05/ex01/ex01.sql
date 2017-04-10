@@ -1,8 +1,8 @@
 CREATE TABLE ft_table
 (
-	id					INT(11)								NOT NULL AUTO_INCREMENT,
+	id					INT(11)								AUTO_INCREMENT NOT NULL,
 	login				VARCHAR(8)							DEFAULT 'toto',
 	groupe				ENUM('staff', 'student', 'other')	NOT NULL,
 	date_de_creation	DATE								NOT NULL,
-	PRIMARY KEY (id);
-) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+	PRIMARY KEY (id)
+);

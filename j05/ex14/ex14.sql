@@ -1,4 +1,4 @@
-SELECT etage_salle AS etage, nbr_siege AS siege
+SELECT etage_salle AS 'etage', SUM(nbr_siege) AS 'sieges'
 FROM salle
-GROUP BY etage
-ORDER BY siege DESC;
+GROUP BY etage_salle
+ORDER BY sieges DESC;

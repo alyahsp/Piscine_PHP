@@ -1,4 +1,4 @@
-SELECT nom, prenom, YEAR(date_naissance) AS 'date de naissance'
+SELECT nom, prenom, DATE_FORMAT(date_naissance, '%Y-%m-%d') AS 'date de naissance'
 FROM fiche_personne
-WHERE 'date de naissance'='1998'
+WHERE EXTRACT(YEAR FROM date_naissance) = 1989
 ORDER BY nom ASC;
