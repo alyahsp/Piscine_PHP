@@ -1,3 +1,3 @@
-SELECT REVERSE(MID(telephone, 2, 9)) AS enohpelet
+SELECT REVERSE(RIGHT(telephone, LENGTH(telephone) - 1)) AS enohpelet
 FROM distrib
-WHERE telephone LIKE '05%'
+WHERE telephone LIKE '05%';
